@@ -1,0 +1,22 @@
+{
+  "name": "wordcloud",
+  "version": "1.0.0",
+  "description": "See a two-person conversation as a living universe of words",
+  "main": "app.js",
+  "scripts": {
+    "watch": "parcel watch index.html --public-url ./ --out-dir ./dist",
+    "build": "parcel build index.html --public-url ./ --out-dir ./dist",
+    "start": "node server.js",
+    "test": "node test/relay.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "choo": "^7.1.0",
+    "ws": "^8.22.1"
+  },
+  "devDependencies": {
+    "less": "^4.1.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
